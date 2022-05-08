@@ -6,17 +6,17 @@ public class Rectangle
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Enter the length of Rectangle: ");
+        System.out.print("Enter the Length of Rectangle: ");
         double Length = sc.nextDouble();
 
-        System.out.print("Enter the width of Rectangle: ");
+        System.out.print("Enter the Width of Rectangle: ");
         double Width = sc.nextDouble();
 
-        //Area = length*width;
+        //Area = Length*Width;
         double Area = Length*Width;
         System.out.println("Area of Rectangle is: "+ Area);
 
-        //Perimeter = 2*(length+width);
+        //Perimeter = 2*(Length+Width);
         double Perimeter = 2*(Length+Width);
         System.out.println("Perimeter of Rectangle is: "+ Perimeter);
     }
